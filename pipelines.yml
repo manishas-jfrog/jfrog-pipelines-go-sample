@@ -1,3 +1,6 @@
+template: true   # required for local templates
+valuesFilePath: ./values.yml
+
 resources:
   # Sample Go app in a GitRepo
   - name: go_repo
